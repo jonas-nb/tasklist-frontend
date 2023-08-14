@@ -1,0 +1,183 @@
+@media only screen and (max-width: 767px) {
+  .form-container {
+    height: 11rem;
+    padding-bottom: 1.25rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+  }
+
+  .input-container {
+    width: 22rem;
+    height: 3.5rem;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(17, 16, 16);
+    color: #dbf5ff;
+  }
+
+  .input-container .add-input {
+    width: 17rem;
+    margin-left: 10px;
+    padding-left: 10px;
+    background-color: rgb(17, 16, 16);
+    font-size: 1rem;
+  }
+
+  .input-container .btn-send {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #54cdfd;
+    transition: 200ms linear;
+    
+  }
+  .btn-send:hover {
+    background-color: #048cc2;
+  }
+
+  .input-container .icon {
+    font-size: 2rem;
+    color: #abf2f7;
+  }
+  
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .input-container {
+    width: 30rem;
+    height: 3.5rem;
+    margin: auto;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(17, 16, 16);
+    color: #dbf5ff;
+
+  }
+
+  .input-container .add-input {
+    width: 17rem;
+    margin-left: 10px;
+    padding-left: 10px;
+    background-color: rgb(17, 16, 16);
+    font-size: 1rem;
+  }
+
+  .input-container .btn-send {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #54cdfd;
+    transition: 200ms linear;
+    
+  }
+  .btn-send:hover {
+    background-color: #048cc2;
+  }
+
+  .input-container .icon {
+    font-size: 2rem;
+    color: #abf2f7;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .input-container {
+    width: 30rem;
+    height: 3.5rem;
+    margin: auto;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(17, 16, 16);
+    color: #dbf5ff;
+
+  }
+
+  .input-container .add-input {
+    width: 17rem;
+    margin-left: 10px;
+    padding-left: 10px;
+    background-color: rgb(17, 16, 16);
+    font-size: 1rem;
+  }
+
+  .input-container .btn-send {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #54cdfd;
+    transition: 200ms linear;
+    
+  }
+  .btn-send:hover {
+    background-color: #048cc2;
+  }
+
+  .input-container .icon {
+    font-size: 2rem;
+    color: #abf2f7;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  /* Estilos para desktops grandes e telas maiores */
+}
+
+@media only screen and (orientation: landscape) {
+  .input-container {
+    width: 35rem;
+    height: 3.5rem;
+    margin: auto;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(17, 16, 16);
+    color: #dbf5ff;
+  }
+
+  .input-container .add-input {
+    width: 17rem;
+    margin-left: 10px;
+    padding-left: 10px;
+    background-color: rgb(17, 16, 16);
+    font-size: 1rem;
+  }
+
+  .input-container .btn-send {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #54cdfd;
+    transition: 200ms linear;
+    
+  }
+  .btn-send:hover {
+    background-color: #048cc2;
+  }
+
+  .input-container .icon {
+    font-size: 2rem;
+    color: #abf2f7;
+  }
+  
+}
