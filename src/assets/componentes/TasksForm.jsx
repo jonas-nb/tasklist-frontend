@@ -12,7 +12,7 @@ const TaskForm = () => {
     event.preventDefault();
 
     try {
-      const response = await axios.post("http://localhost:4000/api/tasks", {
+      const response = await axios.post("https://tasklist-app-api.onrender.com/api/tasks", {
         task: newTask,
       });
 

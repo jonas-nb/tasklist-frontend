@@ -12,7 +12,7 @@ export const UpProvider = ({ children }) => {
 
   const fetchTasks = async () => {
     try {
-      const response = await axios.get("http://localhost:4000/api/tasks");
+      const response = await axios.get("https://tasklist-app-api.onrender.com/api/tasks");
       setDataTask(response.data);
     } catch (e) {
       console.log(`Erro na requisação: ${e}`);
@@ -27,7 +27,7 @@ export const UpProvider = ({ children }) => {
   const removeTask = async (taskId) => {
     try {
       const response = await axios.delete(
-        `http://localhost:4000/api/tasks/${taskId}`
+        `https://tasklist-app-api.onrender.com/api/tasks/${taskId}`
       );
       // Atualize o estado dataTask após a remoção
       const updatedDataTask = dataTask.filter(({ _id }) => _id !== taskId);
@@ -47,7 +47,7 @@ export const UpProvider = ({ children }) => {
         taskToUpdate.check = !taskToUpdate.check;
 
         // Faça a chamada PUT à API
-        await axios.put(`http://localhost:4000/api/tasks/${taskPutId}`, {
+        await axios.put(`https://tasklist-app-api.onrender.com/api/tasks/${taskPutId}`, {
           check: taskToUpdate.check,
         });
 
