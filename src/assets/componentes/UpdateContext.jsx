@@ -1,6 +1,6 @@
 import React, { createContext, useState, useEffect } from "react";
 import axios from "axios";
-import { useParams } from "react-router-dom";
+
 
 export const MyContext = createContext();
 
@@ -13,6 +13,7 @@ export const UpProvider = ({ children }) => {
   const fetchTasks = async () => {
     try {
       const response = await axios.get("https://tasklist-app-api.onrender.com/api/tasks");
+      console.log(response.data)
       setDataTask(response.data);
     } catch (e) {
       console.log(`Erro na requisação: ${e}`);
