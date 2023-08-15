@@ -8,7 +8,7 @@ export const UpProvider = ({ children }) => {
   const [dataTask, setDataTask] = useState([]);
   const [taskState, setTaskState] = useState(false);
 
-  useEffect(() => fetchTasks, []);
+  useEffect(() => fetchTasks(), []);
 
   const fetchTasks = async () => {
     try {
