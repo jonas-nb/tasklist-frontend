@@ -15,8 +15,7 @@ const TaskForm = () => {
       const response = await axios.post("https://tasklist-app-api.onrender.com/api/tasks", {
         task: newTask,
       });
-
-      console.log("task adcionada");
+      
       addTask(response.data);
       setNewTask("");
     } catch (error) {
